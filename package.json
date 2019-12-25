@@ -1,0 +1,24 @@
+{
+  "name": "darkmode-hook",
+  "version": "1.0.0",
+  "description": "A js plugin that allows your page to quickly access the darkmode function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html",
+    "build:lib": "parcel build ./src/main.js --global DarkmodeHook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OfficialYoungX/darkmode-hook.git"
+  },
+  "author": "RandomYang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OfficialYoungX/darkmode-hook/issues"
+  },
+  "homepage": "https://github.com/OfficialYoungX/darkmode-hook#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
