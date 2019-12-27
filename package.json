@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel index.html",
+    "build": "parcel build ./src/main.js",
     "build:lib": "parcel build ./src/main.js --global DarkmodeHook"
   },
   "repository": {
@@ -20,5 +21,8 @@
   "homepage": "https://github.com/OfficialYoungX/darkmode-hook#readme",
   "dependencies": {
     "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "parcel-plugin-clean-dist": "0.0.6"
   }
 }

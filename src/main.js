@@ -29,7 +29,6 @@ export default class DarkmodeHook {
     this.init()
   }
   _installStyle(styles) {
-    console.log(styles)
     for (let key in styles) {
       this.maskDOMNode.style[key] = styles[key]
     }
@@ -80,3 +79,5 @@ export default class DarkmodeHook {
     }
   }
 }
+
+window && (window['DarkmodeHook'] = DarkmodeHook) // mount on the global
