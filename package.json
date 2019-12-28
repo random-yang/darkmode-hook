@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel index.html",
-    "build": "parcel build ./src/main.js",
-    "build:lib": "parcel build ./src/main.js --global DarkmodeHook"
+    "build": "parcel build index.html -d site",
+    "build:lib": "parcel build ./src/main.js"
   },
   "repository": {
     "type": "git",
