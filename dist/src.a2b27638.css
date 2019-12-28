@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #FFE381;
+  padding-bottom: 100px;
+  overflow-x: hidden;
+}
+
+a {
+  color: #222222;
+  box-sizing: border-box;
+}
+
+.circle {
+  width: 400px;
+  height: 400px;
+  background: white;
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+  z-index: 0;
+}
+
+.circle:nth-child(2) {
+  top: auto;
+  bottom: 0;
+  left: 0;
+  transform: none;
+}
+
+/* header */
+.header-wrapper {
+  padding: 100px 120px 100px 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__title {
+  font-weight: 500;
+  font-size: 80px;
+  color: #222222;
+  text-align: center;
+}
+
+.header__subtitle {
+  /* font-family: PingFangSC-Light; */
+  font-weight:200;
+  font-size: 24px;
+  color: #222222;
+  text-align: center;
+}
+
+.header__switch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.switch-button {
+  padding: 0 15px;
+}
+
+.switch-button input[type=checkbox] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+.switch-button label {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 4rem;
+  height: 2rem;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-border-radius: 10rem;
+  -moz-border-radius: 10rem;
+  border-radius: 10rem;
+  position: relative;
+  z-index: 1;
+}
+.switch-button label:after {
+  content: '';
+  background: #fff;
+  width: 2rem;
+  height: 2rem;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 300ms ease-in-out;
+}
+.switch-button input:checked + label:after {
+  left: 100%;
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+/* content */
+.content-wrapper {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.content-wrapper h3{
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.content-wrapper p{
+
+}
+
+.content-wrapper pre{
+
+}
+
+.content-wrapper code{
+  border-radius: 4px;
+}
+
+/* footer */
+.footer-wrapper {
+  width: 100%;
+  background: #F4D97A;
+  padding: 24px 0;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  box-shadow: 0 0px 4px rgba(0, 0, 0, 0.15);
+}
+
+.footer-wrapper li {
+  display: inline;
+  padding: 0 6px;
+  font-size: 12px;
+}
+
+/* hljs custom */
+code.hljs {
+  background: #F4D97A;
+}
+
+@media screen and (max-width: 700px) {
+  .header-wrapper {
+    padding: 100px 20px 100px 20px;
+  }
+
+  .header__title {
+    font-size: 48px;
+  }
+
+  .header__subtitle {
+    font-size: 16px;
+  }
+  .content-wrapper {
+    width: 90%;
+  }
+}
+/*
+
+github.com style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: #f8f8f8;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #998;
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #333;
+  font-weight: bold;
+}
+
+.hljs-number,
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
+  color: #008080;
+}
+
+.hljs-string,
+.hljs-doctag {
+  color: #d14;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+  color: #900;
+  font-weight: bold;
+}
+
+.hljs-subst {
+  font-weight: normal;
+}
+
+.hljs-type,
+.hljs-class .hljs-title {
+  color: #458;
+  font-weight: bold;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-attribute {
+  color: #000080;
+  font-weight: normal;
+}
+
+.hljs-regexp,
+.hljs-link {
+  color: #009926;
+}
+
+.hljs-symbol,
+.hljs-bullet {
+  color: #990073;
+}
+
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #0086b3;
+}
+
+.hljs-meta {
+  color: #999;
+  font-weight: bold;
+}
+
+.hljs-deletion {
+  background: #fdd;
+}
+
+.hljs-addition {
+  background: #dfd;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+
+/*# sourceMappingURL=/src.a2b27638.css.map */

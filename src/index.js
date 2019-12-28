@@ -1,5 +1,4 @@
-// import darkmode from "./main";
-import darkmode from "./main";
+import darkmode from "@yangcongming/darkmode-hook";
 import hljs from 'highlight.js';
 import './static/css/style.css'
 import '../node_modules/highlight.js/styles/github.css'
