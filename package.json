@@ -1,13 +1,13 @@
 {
-  "name": "darkmode-hook",
+  "name": "@yangcongming/darkmode-hook",
   "version": "1.0.0",
   "description": "A js plugin that allows your page to quickly access the darkmode function",
   "main": "index.js",
+  "keywords": ["darkmode", "javascript", "simple"],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel index.html",
     "build": "parcel build index.html --public-url ./",
-    "build:lib": "parcel build ./src/main.js -d lib"
+    "build:lib": "parcel build ./src/main.js -d lib -o index.js"
   },
   "repository": {
     "type": "git",
@@ -15,6 +15,11 @@
   },
   "author": "RandomYang",
   "license": "MIT",
+  "files":  [
+    "lib",
+    "README.md",
+    "package.json"
+  ],
   "bugs": {
     "url": "https://github.com/OfficialYoungX/darkmode-hook/issues"
   },

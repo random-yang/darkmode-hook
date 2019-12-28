@@ -1,0 +1,10 @@
+src/
+dist/
+
+.cache/*
+.cache
+
+.DS_Store
+node_modules
+
+index.html

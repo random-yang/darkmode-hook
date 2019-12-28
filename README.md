@@ -7,7 +7,7 @@
 
 **npm**
 ```bash
-npm i darkmode-hook
+npm i @yangcongming/darkmode-hook -s
 ```
 
 **`<script>`tag引入**
