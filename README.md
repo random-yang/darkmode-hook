@@ -1,7 +1,8 @@
-# darkmode-hook
+<h1 align=center>darkmode-hook</h1>
 
 <p align=center>一个能让你的页面快速获取🌗<strong>darkmode</strong>功能的js小插件</p>
 
+[实际效果](https://officialyoungx.github.io/darkmode-hook/dist/index.html)
 ### 引入
 
 **npm**
@@ -19,9 +20,12 @@ npm i darkmode-hook
 ```javascript
 import DarkmodeHook from "DarkmodeHook";
 const darkmode = new DarkmodeHook();
-// turn on the darkmode on you site
+// turn on the darkmode
 darkmode.turnOn();
 // turn off
 darkmode.turnOff();
 ```
 
+### 配置项
+
+ 
