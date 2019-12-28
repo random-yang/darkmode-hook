@@ -1,9 +1,13 @@
 {
   "name": "@yangcongming/darkmode-hook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A js plugin that allows your page to quickly access the darkmode function",
   "main": "index.js",
-  "keywords": ["darkmode", "javascript", "simple"],
+  "keywords": [
+    "darkmode",
+    "javascript",
+    "simple"
+  ],
   "scripts": {
     "dev": "parcel index.html",
     "build": "parcel build index.html --public-url ./",
@@ -15,7 +19,7 @@
   },
   "author": "RandomYang",
   "license": "MIT",
-  "files":  [
+  "files": [
     "lib",
     "README.md",
     "package.json"
