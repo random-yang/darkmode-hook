@@ -2,7 +2,7 @@
 
 <p align=center>一个能让你的页面快速获取🌗<strong>darkmode</strong>功能的js小插件</p>
 
-[实际效果](https://officialyoungx.github.io/darkmode-hook/dist)
+[实际效果](https://officialyoungx.github.io/darkmode-hook/site)
 ### 引入
 
 **npm**
