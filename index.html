@@ -1,13 +1,62 @@
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>darkmode-hook</title>
 </head>
+
 <body>
-  <h1>Hello world! (๑•̀ㅂ•́)و✧</h1>
-  <img src="./src/static/9CE1DF5F-46C8-43DB-B559-C8038EBBA858.png" style="width: 100%;" alt="">
+  <!-- title -->
+  <div class="header-wrapper">
+    <h1 class="header__title">Darkmode-Hook</h1>
+    <p class="header__subtitle">能让你的网页快速获取darkmode能力的JS小插件</p>
+    <div class="header__switch">
+      <span>Light</span>
+      <div class="switch-button">
+        <input type="checkbox" id="switch" name="mode">
+        <label for="switch">Toggle</label>
+      </div>
+      <span>Dark</span>
+    </div>
+  </div>
+
+  <!-- content -->
+  <div class="content-wrapper">
+    <h3>Install</h3>
+    <pre>
+      <code>
+  npm i darkmode-hook
+      </code>
+    </pre>
+    <p>or</p>
+    <pre>
+      <code>
+  &lt;script src=&quot;./src/index.js&quot;&gt;&lt;/script&gt;
+      </code>
+    </pre>
+    <h3>Usage</h3>
+    <pre>
+      <code>
+  import DarkmodeHook from “DarkmodeHook”;
+  const darkmode = new DarkmodeHook();
+  // turn on the darkmode on you site
+  darkmode.turnOn();
+  // turn off
+  darkmode.turnOff();
+      </code>
+    </pre>
+  </div>
+  <!-- footer -->
+  <div class="footer-wrapper">
+    <ul>
+      <a href="https://github.com/OfficialYoungX/darkmode-hook"><li>更多信息</li></a>
+      <a href="https://github.com/OfficialYoungX"><li>关于作者</li></a>
+    </ul>
+  </div>
+  <!-- circle -->
   <script src="./src/index.js"></script>
 </body>
+
 </html>

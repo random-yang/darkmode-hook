@@ -44,11 +44,11 @@ export default class DarkmodeHook {
     this.maskDOMNode.id = this.maskDOMNodeID
 
     // fix chrome bug
-    if (!document.documentElement.style.background) {
-      document.documentElement.style.background = '#ffffff'
+    if (window.getComputedStyle(document.documentElement).backgroundColor === 'rgb(0, 0, 0)' || window.getComputedStyle(document.documentElement).backgroundColor === 'rgba(0, 0, 0, 0)') {
+      document.documentElement.style.background = 'rgb(0, 0, 0)'
     }
-    if (!document.body.style.background) {
-      document.body.style.background = '#ffffff'
+    if (window.getComputedStyle(document.body).backgroundColor === 'rgb(0, 0, 0)' || window.getComputedStyle(document.body).backgroundColor === 'rgba(0, 0, 0, 0)') {
+      document.body.style.background = 'rgb(0, 0, 0)'
     }
 
     // mask 插入 body

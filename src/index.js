@@ -1,14 +1,22 @@
+// import darkmode from "./main";
 import darkmode from "./main";
+import hljs from 'highlight.js';
+import './static/css/style.css'
+import '../node_modules/highlight.js/styles/github.css'
 
 ; (() => {
-  const dark = new darkmode()
+  document.addEventListener('DOMContentLoaded', () => {
+    // hljs
+    hljs.initHighlightingOnLoad()
 
-  let switcher = false
-
-  setInterval(() => {
-    !switcher ? dark.turnOn() : dark.turnOff()
-    switcher = !switcher
-  }, 2000);
+    // darkmode control
+    const dark = new darkmode()
+    let flag = true
+    document.getElementById('switch').addEventListener('click', () => {
+      flag ? dark.turnOn() : dark.turnOff()
+      flag = !flag
+    })
+  })
 })()
 
 
