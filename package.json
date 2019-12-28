@@ -23,9 +23,7 @@
     "url": "https://github.com/OfficialYoungX/darkmode-hook/issues"
   },
   "homepage": "https://github.com/OfficialYoungX/darkmode-hook#readme",
-  "dependencies": {
-    "@yangcongming/darkmode-hook": "^1.0.6"
-  },
+  "dependencies": {},
   "devDependencies": {
     "parcel-plugin-clean-dist": "0.0.6",
     "parcel-bundler": "^1.12.4",
