@@ -19,11 +19,6 @@
   },
   "author": "RandomYang",
   "license": "MIT",
-  "files": [
-    "lib/*",
-    "README.md",
-    "package.json"
-  ],
   "bugs": {
     "url": "https://github.com/OfficialYoungX/darkmode-hook/issues"
   },
