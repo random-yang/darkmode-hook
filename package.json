@@ -1,6 +1,6 @@
 {
   "name": "@yangcongming/darkmode-hook",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A js plugin that allows your page to quickly access the darkmode function",
   "main": "index.js",
   "keywords": [
@@ -23,8 +23,7 @@
     "url": "https://github.com/OfficialYoungX/darkmode-hook/issues"
   },
   "homepage": "https://github.com/OfficialYoungX/darkmode-hook#readme",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "parcel-plugin-clean-dist": "0.0.6",
     "parcel-bundler": "^1.12.4",
