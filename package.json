@@ -20,7 +20,7 @@
   "author": "RandomYang",
   "license": "MIT",
   "files": [
-    "lib",
+    "lib/*",
     "README.md",
     "package.json"
   ],
