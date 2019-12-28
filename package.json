@@ -1,6 +1,6 @@
 {
   "name": "@yangcongming/darkmode-hook",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A js plugin that allows your page to quickly access the darkmode function",
   "main": "index.js",
   "keywords": [
