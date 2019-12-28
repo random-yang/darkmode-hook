@@ -7,7 +7,7 @@
 
 **npm**
 ```bash
-npm i darkmode-hook
+npm i @yangcongming/darkmode-hook -s
 ```
 
 **`<script>`tag引入**
@@ -18,7 +18,7 @@ npm i darkmode-hook
 ### 如何使用
 
 ```javascript
-import DarkmodeHook from "DarkmodeHook";
+import DarkmodeHook from "@yangcongming/darkmode-hook";
 const darkmode = new DarkmodeHook();
 // turn on the darkmode
 darkmode.turnOn();
