@@ -12,7 +12,7 @@ npm i @yangcongming/darkmode-hook -s
 
 **`<script>`tag引入**
 ```html
-<script src="./src/index.js"></script>
+<script src="path/to/src/index.js"></script>
 ```
 
 ### 如何使用
