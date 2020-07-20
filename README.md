@@ -4,7 +4,7 @@
 
 <div align=center><img width="60%" src="https://source-hosting.oss-cn-shanghai.aliyuncs.com/darkmode-hook-dongtai.gif"/></div>
 
-[实际效果](https://officialyoungx.github.io/darkmode-hook/dist)
+[实际效果](https://random-yang.github.io/darkmode-hook/dist)
 ### 引入
 
 **npm**
